@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-titulo{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #2E2F35;
+}
+
+.titulo{
+    font-weight: bold;
+    color: coral;
+}
+
+.main{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 10px auto;
+}
+
+.item:not(.active){
+    display: none;
+}
+
+.header-article{
+    margin: 0 auto 10px auto;
+}
+
+.titulo-receita{
+    margin: 10px auto 10px auto;
+    padding: 30px;
+}
+
+.img-receita{
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 4/3;
+}
+
+.titulo-ingredientes, .titulo-preparo{
+    font-weight: bold;
+    border-bottom: solid 3px coral;
+    margin: 0 auto 15px auto;
+    padding: 10px;
+}
+
+.lista-ingredientes{
+    list-style: none;
+    padding: 0;
+}
+
+.lista-preparo{
+    text-align: justify;
+}
+
+.lista-ingredientes > li, .lista-preparo > li{
+    margin-bottom: 5px;
+}
+
+.subtitulo-ingredientes, .subtitulo-preparo{
+    width: fit-content;
+    width: -moz-fit-content;
+    font-weight: bold;
+    border-bottom: solid 3px tan;
+    margin: 0 auto 10px auto;
+}
+
+.nav-lista-botao{
+    margin-top: 10px;
+    align-self: center;
+}
